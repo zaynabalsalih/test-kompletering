@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pipeline {
     agent any
     stages {
@@ -11,3 +12,18 @@ pipeline {
         }
     }
 }
+=======
+pipeline {
+    agent any
+    stages {
+        stage('Selenium Test') {
+            steps {
+                seleniumIDE(
+                    testFiles: 'path/to/test-suite.xml',
+                    browsers: 'chrome'
+                )
+            }
+        }
+    }
+}
+>>>>>>> 4634245e179d11caee07c84083b1ddce2bb7863d
