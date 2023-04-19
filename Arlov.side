@@ -1,0 +1,142 @@
+{
+  "id": "e5f9c998-e548-4c88-9da0-3ab2ee2f8c00",
+  "version": "2.0",
+  "name": "Arlov",
+  "url": "https://bibliotek.burlov.se/-/arlovs-bibliotek",
+  "tests": [{
+    "id": "6bef3410-a32d-4288-a166-a07dcadce7ba",
+    "name": "",
+    "commands": [{
+      "id": "8b9b21ed-0bc4-49c0-b4d0-936919331047",
+      "comment": "",
+      "command": "open",
+      "target": "https://bibliotek.burlov.se/-/arlovs-bibliotek",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82f29918-8ec7-4ac5-a554-fe04c34f3c53",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "851ca456-0c21-4d54-82d6-e833554f9775",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Barn och unga",
+      "targets": [
+        ["linkText=Barn och unga", "linkText"],
+        ["css=#navigation li:nth-child(4) > a", "css:finder"],
+        ["xpath=//nav[@id='navigation']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://bibliotek.burlov.se/barn-och-unga')]", "xpath:href"],
+        ["xpath=//nav/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Barn och unga')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f6677fb-ec67-4797-a5a3-49f4e43c78e2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Barn och unga",
+      "targets": [
+        ["linkText=Barn och unga", "linkText"],
+        ["css=#navigation li:nth-child(4) > a", "css:finder"],
+        ["xpath=//nav[@id='navigation']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://bibliotek.burlov.se/barn-och-unga')]", "xpath:href"],
+        ["xpath=//nav/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Barn och unga')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40ec76c5-1d34-4b26-85d0-97afa61534d3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#navigation li:nth-child(4) span",
+      "targets": [
+        ["css=#navigation li:nth-child(4) span", "css:finder"],
+        ["xpath=//nav[@id='navigation']/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Barn och unga')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63b51ab4-3b54-43db-a83a-8f4e6fa62b6a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#navigation li:nth-child(4) span",
+      "targets": [
+        ["css=#navigation li:nth-child(4) span", "css:finder"],
+        ["xpath=//nav[@id='navigation']/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Barn och unga')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d20f747-6032-4942-9ccb-36325b77439f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dynamic-cal-header-library-name",
+      "targets": [
+        ["css=.dynamic-cal-header-library-name", "css:finder"],
+        ["xpath=//div[@id='i0-dynamic-cal-wrapper']/div/h2", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Öppettider')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "966c7e34-20f0-4ff1-888b-2f65d6e40893",
+      "comment": "",
+      "command": "click",
+      "target": "id=i0-dynamic-cal-wrapper",
+      "targets": [
+        ["id=i0-dynamic-cal-wrapper", "id"],
+        ["css=#i0-dynamic-cal-wrapper", "css:finder"],
+        ["xpath=//div[@id='i0-dynamic-cal-wrapper']", "xpath:attributes"],
+        ["xpath=//div[@id='_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e13FfCWDEB9a_460780']/div/article/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61e4ea43-c3f6-458b-b86b-941ffa5ce68b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.dynamic-cal-header-library-name",
+      "targets": [
+        ["css=.dynamic-cal-header-library-name", "css:finder"],
+        ["xpath=//div[@id='i0-dynamic-cal-wrapper']/div/h2", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Öppettider')]", "xpath:innerText"]
+      ],
+      "value": "Öppettider"
+    }, {
+      "id": "97b2a326-32a5-4992-b70a-dc7a5d1cfa52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.branch-container-image",
+      "targets": [
+        ["css=.branch-container-image", "css:finder"],
+        ["xpath=//div[@id='_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e13FfCWDEB9a_460780']/div/article/div", "xpath:idRelative"],
+        ["xpath=//article/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4bc163f-b23d-491b-9244-38ca7c9ac688",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bfd66204-9793-49d2-b960-d21a1e7e78c5",
+    "name": "",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6bef3410-a32d-4288-a166-a07dcadce7ba"]
+  }],
+  "urls": ["https://bibliotek.burlov.se/-/arlovs-bibliotek"],
+  "plugins": []
+}
